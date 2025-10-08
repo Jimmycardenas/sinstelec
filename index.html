@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sinstelec — Sistemas, Electricidad y Tecnología</title>
+  <meta name="description" content="Sinstelec: soluciones en sistemas, electricidad y tecnología. Instalaciones eléctricas, automatización, CCTV, redes y mantenimiento.">
+  <link rel="icon" href="assets/logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <img src="assets/logo.png" alt="Sinstelec logo" class="logo-img">
+      <div class="brand-text">
+        <div class="brand-name">Sinstelec</div>
+        <div class="brand-sub">Sistemas · Electricidad · Tecnología</div>
+      </div>
+    </div>
+    <nav>
+      <a href="#servicios">Servicios</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#contacto" class="cta">Contacto</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-left">
+        <h1>Soluciones en sistemas, electricidad y tecnología para empresas y hogares</h1>
+        <p class="lead">Instalaciones eléctricas, automatización, CCTV, redes y mantenimiento con enfoque en seguridad, eficiencia y cumplimiento normativo.</p>
+        <div class="buttons">
+          <a class="btn primary" href="#contacto">Solicitar presupuesto</a>
+          <a class="btn outline" href="#servicios">Ver servicios</a>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Instalaciones eléctricas</h3>
+            <p>Diseño y ejecución en baja tensión, tableros eléctricos y puesta a tierra.</p>
+          </article>
+          <article class="card">
+            <h3>Automatización</h3>
+            <p>Controladores, PLCs, domótica y soluciones de eficiencia energética.</p>
+          </article>
+          <article class="card">
+            <h3>CCTV & LPR</h3>
+            <p>Sistemas de video, cámaras LPR y monitoreo para seguridad perimetral.</p>
+          </article>
+          <article class="card">
+            <h3>Redes y comunicaciones</h3>
+            <p>Cableado estructurado, Wi‑Fi empresarial y soluciones de conectividad.</p>
+          </article>
+        </div>
+      </div>
+
+      <aside class="panel">
+        <h3>¿Por qué elegir Sinstelec?</h3>
+        <ul>
+          <li>Equipo certificado y experiencia comprobada</li>
+          <li>Proyectos a la medida y soporte post‑instalación</li>
+          <li>Cumplimiento de normas y priorizamos la seguridad</li>
+        </ul>
+        <div class="contact-card">
+          <strong>Tel:</strong> +57 314 359 7815<br>
+          <strong>Email:</strong> gerencia@sinstelec.com
+        </div>
+      </aside>
+    </section>
+
+    <section id="servicios" class="section">
+      <h2>Servicios</h2>
+      <div class="grid">
+        <div class="service card"><div class="icon">⚡</div><h3>Montaje eléctrico</h3><p>Instalaciones residenciales, comerciales e industriales.</p></div>
+        <div class="service card"><div class="icon">🤖</div><h3>Automatización y control</h3><p>PLC, SCADA y soluciones a medida.</p></div>
+        <div class="service card"><div class="icon">📹</div><h3>Cámaras y seguridad</h3><p>Instalación de CCTV, NVRs y reconocimiento de placas (LPR).</p></div>
+        <div class="service card"><div class="icon">🌐</div><h3>Redes & Comunicación</h3><p>Diseño de redes LAN/WAN, Wi‑Fi y cableado estructurado.</p></div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="section">
+      <h2>Proyectos destacados</h2>
+      <div class="grid">
+        <div class="card"><h3>Proyecto CCTV — Centro comercial</h3><p>Diseño e implementación de 48 cámaras y sala de monitoreo.</p></div>
+        <div class="card"><h3>Automatización — Planta industrial</h3><p>Integración de PLCs y sistema SCADA para control de procesos.</p></div>
+        <div class="card"><h3>Redes — Sede corporativa</h3><p>Cableado estructurado y Wi‑Fi corporativo con VLANs.</p></div>
+      </div>
+    </section>
+
+    <section id="nosotros" class="section">
+      <h2>Nosotros</h2>
+      <div class="card">
+        <p>Sinstelec es una empresa especializada en soluciones integrales de sistemas eléctricos y tecnología. Nuestro equipo combina experiencia en ingeniería eléctrica, telecomunicaciones y software para entregar proyectos seguros, eficientes y escalables.</p>
+      </div>
+    </section>
+
+    <section id="contacto" class="section contact-section">
+      <h2>Contacto</h2>
+      <div class="contact-grid">
+        <div class="card">
+          <form id="contactForm" method="post" action="send_mail.php">
+            <input type="text" name="name" id="name" placeholder="Nombre completo" required>
+            <input type="email" name="email" id="email" placeholder="Tu correo" required>
+            <input type="text" name="phone" id="phone" placeholder="Teléfono (opcional)">
+            <textarea name="message" id="message" placeholder="Escribe tu mensaje" rows="5" required></textarea>
+            <button type="submit" class="btn primary">Enviar mensaje</button>
+            <div id="formFeedback" class="feedback" role="status" aria-live="polite" hidden></div>
+          </form>
+        </div>
+
+        <div class="card">
+          <h3>Detalles</h3>
+          <p><strong>Teléfono:</strong> +57 314 359 7815</p>
+          <p><strong>Email:</strong> gerencia@sinstelec.com</p>
+          <p><strong>Teléfono:</strong> 314 359 7815</p>
+          <p><strong>Ubicación:</strong> Tunja, Boyacá, Colombia</p>
+       </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>© <span id="year"></span> Sinstelec. Todos los derechos reservados.</div>
+    
+  </footer>
+
+  <script src="script.js"></script>
+
+  <!-- WhatsApp floating button -->
+  <a class="whatsapp-float" href="https://wa.me/573143597815?text=Hola%2C%20deseo%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20Sinstelec" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M20.52 3.48A11.88 11.88 0 0012.01.5C6.06.5 1.24 5.32 1.24 11.27c0 1.98.52 3.91 1.51 5.6L.5 23.5l6.84-1.78a11.67 11.67 0 005.67 1.38h.01c5.95 0 10.77-4.82 10.77-10.77 0-2.88-1.12-5.58-3.27-7.85z" fill="#25D366"/>
+      <path d="M17.22 14.13c-.29-.15-1.71-.84-1.97-.94-.26-.1-.45-.15-.64.15-.19.29-.74.94-.91 1.13-.17.19-.35.21-.64.07-.29-.15-1.22-.45-2.33-1.44-.86-.76-1.44-1.7-1.61-1.99-.17-.29-.02-.45.13-.6.14-.14.32-.35.48-.53.16-.18.21-.3.32-.5.11-.2.05-.37-.02-.52-.07-.15-.64-1.54-.88-2.12-.23-.55-.46-.48-.63-.49l-.54-.01c-.19 0-.5.07-.76.37-.26.3-1 1.02-1 2.48s1.03 2.87 1.17 3.07c.14.2 2.03 3.1 4.92 4.35 0 0 .32.12.58.06.26-.06 1.71-.7 1.95-1.37.24-.67.24-1.25.17-1.37-.07-.12-.26-.19-.55-.34z" fill="#fff"/>
+    </svg>
+  </a>
+
+</body>
+</html>
